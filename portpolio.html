@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+   <style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.page-header {
+    background: #6df314;
+    color: #f81528;
+    padding: 20px 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #3312c5;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #ff6347;
+}
+
+.intro {
+    background: #cb0e2e;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.profile-img img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.profile-info h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.profile-info p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.social a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.social a:hover {
+    color: #ff6347;
+}
+
+.about-section {
+    background: #f9f9f9;
+    padding: 50px 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about-box {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.about-icon {
+    font-size: 2em;
+    color: #ff6347;
+}
+
+.contact-section {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact-button:hover {
+    background: #e5533d;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+   </style>
+</head>
+
+<body>
+    <header>
+        <div class="container page-header">
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="intro">
+        <div class="container main">
+            <div class="profile-img">
+                <img class="images img-w" src="WhatsApp Image 2023-08-30 at 13.32.34.jpeg" alt="Profile Image">
+            </div>
+            <div class="profile-info">
+                <h3>Hi, I'm</h3>
+                <h1><span class="name">Manish Kumar Yadav</span></h1>
+                <p>I am pursuing my B.TECH COURSE(ELECTRICAL ENGINEERING) from gurukul
+                    kangri (deemed to be university) and currently in 4th year. I am dedicated and
+                    punctual to my work and always try to give my best.</p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/manish-kumar-yadav-a68993249/"><i
+                            class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://www.instagram.com/manish_yaduvanshi_512/">
+                        <i class='bx bxl-instagram'></i></a>
+                    <a href="https://github.com/manishkumaryadav2002">
+                        <i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container about">
+            <div class="about-content">
+                <div class="about-box">
+                    <div class="about-icon">
+                        <i class='bx bx-code-block'></i>
+                    </div>
+                    <div class="about-info">
+                        <h3>Software Developer</h3>
+                        <p>I have a deep passion for creating software solutions that solve real-world problems. With a
+                            strong background in various programming languages and frameworks, I aim to build efficient
+                            and scalable applications.</p>
+                    </div>
+                </div>
+                <div class="about-box">
+                    <div class="about-icon">
+                        <i class='bx bx-chalkboard'></i>
+                    </div>
+                    <div class="about-info">
+                        <h3>Educaton Detals</h3>
+                        <p>EDUCATION
+                            Graduation
+                            Course B.Tech/B.E. (Electrical)
+                            College Gurukula Kangri University (GKU), Haridwar
+                            Score 8.1%
+                            Course B.Tech/B.E. (Electrical)
+                            College Gurukula Kangri University (GKU), Haridwar
+                            Score 8.9%
+                            Class XII
+                            Board Name CBSE
+                            Medium English
+                            Year of Passing 2020
+                            Percentage 82.4%
+                            Class X
+                            Board Name CBSE
+                            Medium English
+                            Year of Passing 2018
+                            Percentage 83.2%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+        <div class="contact">
+            <div class="contact-content">
+                <a href="mailto:manishkumaryadav9870@gmail.com">
+                    <i class="fas fa-envelope"></i> manishkumaryadav9870@gmail.com
+                </a>
+            </div>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/suhas-s-j-88457a1b6/" target="_blank">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="https://www.instagram.com/suhas_sindhuvadhi/" target="_blank">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+                <a href="https://github.com/SuhasSindhuvadi" target="_blank">
+                    <i class="bx bxl-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script>document.querySelectorAll('nav ul li a').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
+</body>
+
+</html>
